@@ -6,7 +6,7 @@ DontPublishDirs=CVS;.svn;.git
 DefaultFile=
 HideFiles=.gitignore;.cvsignore
 HideDirs=CVS;.svn;.git
-HideSearchDirs=CVS;.svn;.git
+HideSearchDirs=
 EncoderEnabled=0
 MappingLocal0=C:\xampp\htdocs\nh_new
 MappingURL0=
@@ -27,7 +27,7 @@ CvsHost=
 CvsRoot=
 CvsModule=
 CvsUser=
-CvsPassw=EaPIT1avbB2S20hpDkdk9crzwMHG31zNAgs4GX53VKVeI9VxRA8JfQo7XMmcpyVV61PSIcE/AS3ia1F5KtdRBQ==
+CvsPassw=+0EDYOiJrmcEFWoTYOFm//ztoivYOR6X9MXaQ1CR1i+CnX1buunrx991ZHMjQTBfr03ri9+ZkPe7JcijVfG2jw==
 CvsUseUtf8=0
 CvsCVSROOT=
 IncPath_count=0
@@ -55,26 +55,26 @@ FindTestMode=0
 
 [Debugger]
 Custom.Debug.Settings=1
-custom=0
-dbgsessions=1
+custom=
+dbgsessions=
 tunnel=
-host=localhost
-sesstimeout=15
-cp=System default encoding
-stopbeginning=1
-breakerr=1
-errset=E_ERROR,E_WARNING,E_PARSE,E_CORE_ERROR,E_CORE_WARNING,E_COMPILE_ERROR,E_COMPILE_WARNING,E_USER_ERROR,E_USER_WARNING,E_STRICT,E_RECOVERABLE_ERROR
-breakexc=1
-excset=Exception
+host=
+sesstimeout=
+cp=
+stopbeginning=
+breakerr=
+errset=
+breakexc=
+excset=
 excign=
 showmaperrors=1
-readonlyed=0
-blkout=0
-profwithdbg=0
+readonlyed=
+blkout=
+profwithdbg=
 profflame=
-profflamemaxsamples=10000
-profflamebufsz=80
-profflamerate=1000
+profflamemaxsamples=
+profflamebufsz=
+profflamerate=
 
 [Publishing]
 count=0

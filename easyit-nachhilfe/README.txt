@@ -70,3 +70,13 @@ Scroll-Fehler korrigiert:
 - Hauptseite startet ohne expliziten Anker immer oben
 - alte Browser-Scrollpositionen werden nicht wiederhergestellt
 - Akkordeons erzeugen keinen automatischen Seitensprung
+
+Neue FAQ-Seite:
+- faq.html
+- FAQ-Suche mit Ergebnisanzeige
+- Kategorien für Organisation, Methodik, Fortschritt, Online-Unterricht
+  sowie Datenschutz und Kommunikation
+- Inhalte aus StartmaterialienHomepage.docx und den dokumentierten
+  Rückmeldungen abgeleitet
+- FAQ als neuer Hauptmenüpunkt unter Wissenswertes
+- css/faq.css und js/faq.js
