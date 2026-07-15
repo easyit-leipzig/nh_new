@@ -1,0 +1,390 @@
+/* =========================================================
+   METHODIK-SEITE
+   Ergänzt das zentrale Stylesheet der easyIT-Website.
+   ========================================================= */
+
+.method-main {
+  display: grid;
+  gap: 0;
+}
+
+.method-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(230px, 0.75fr);
+  align-items: center;
+  gap: 42px;
+  padding: clamp(36px, 5vw, 70px);
+  border-radius: var(--radius);
+}
+
+.method-hero h1 {
+  margin: 0;
+  color: #0a3d74;
+  font-size: clamp(2.8rem, 6vw, 5.7rem);
+  line-height: 1.02;
+  letter-spacing: -0.055em;
+}
+
+.method-lead {
+  max-width: 800px;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.method-hero > img {
+  width: min(100%, 310px);
+  margin-inline: auto;
+}
+
+.method-proof {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+.method-proof span {
+  padding: 8px 12px;
+  border: 1px solid rgba(0, 87, 164, 0.18);
+  border-radius: 999px;
+  color: #0a3d74;
+  background: #ffffff;
+  font-weight: 800;
+  box-shadow: 0 6px 16px rgba(0, 45, 90, 0.08);
+}
+
+.method-principle {
+  padding: clamp(30px, 5vw, 58px);
+  border-radius: var(--radius);
+}
+
+.method-principle h2,
+.lesson-flow h2,
+.effect-section h2,
+.method-cta h2 {
+  margin: 0;
+  color: #0a3d74;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+}
+
+.method-principle > div:first-child p:not(.eyebrow) {
+  max-width: 860px;
+  color: var(--muted);
+}
+
+.principle-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.principle-steps article {
+  min-height: 190px;
+  padding: 22px;
+  border: 1px solid rgba(0, 87, 164, 0.14);
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(0, 45, 90, 0.08);
+}
+
+.principle-steps span,
+.flow-list > li > span {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 14px;
+  border-radius: 50%;
+  color: #06315f;
+  background: var(--gold);
+  font-weight: 900;
+}
+
+.principle-steps strong {
+  display: block;
+  color: #0a3d74;
+  font-size: 1.12rem;
+}
+
+.principle-steps p {
+  color: var(--muted);
+}
+
+.usp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.usp-card {
+  position: relative;
+  min-height: 340px;
+  padding: 26px;
+  border: 1px solid rgba(0, 87, 164, 0.15);
+  border-radius: 18px;
+  background: linear-gradient(145deg, #ffffff, #f7fbff);
+  box-shadow: 0 14px 32px rgba(0, 45, 90, 0.10);
+}
+
+.usp-card h3 {
+  margin-top: 42px;
+  color: #0a3d74;
+  font-size: 1.35rem;
+}
+
+.usp-card p {
+  color: var(--muted);
+}
+
+.usp-card strong,
+.usp-card > span:last-child {
+  display: block;
+}
+
+.usp-card strong {
+  margin-top: 18px;
+  color: #0a3d74;
+}
+
+.usp-card > span:last-child {
+  color: #0057a4;
+  font-weight: 700;
+}
+
+.usp-number {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  color: rgba(0, 87, 164, 0.16);
+  font: 900 3.2rem/1 monospace;
+}
+
+.lesson-flow {
+  padding: clamp(30px, 5vw, 58px);
+  border-radius: var(--radius);
+}
+
+.flow-list {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flow-list li {
+  display: grid;
+  grid-template-columns: 55px 1fr;
+  gap: 18px;
+  align-items: start;
+  padding: 18px 20px;
+  border-left: 4px solid var(--gold);
+  border-radius: 0 14px 14px 0;
+  background: rgba(0, 87, 164, 0.045);
+}
+
+.flow-list h3 {
+  margin: 0;
+  color: #0a3d74;
+}
+
+.flow-list p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.proof-grid {
+  display: grid;
+  grid-template-columns: 1.2fr repeat(3, 1fr);
+  gap: 18px;
+}
+
+.proof-grid > * {
+  min-height: 230px;
+  margin: 0;
+  padding: 25px;
+  border: 1px solid rgba(0, 87, 164, 0.15);
+  border-radius: 17px;
+  background: #ffffff;
+  box-shadow: 0 12px 28px rgba(0, 45, 90, 0.09);
+}
+
+.proof-grid blockquote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  background: linear-gradient(135deg, #0a3d74, #0057a4);
+}
+
+.proof-grid blockquote p {
+  margin: 0;
+  color: var(--gold);
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.proof-grid blockquote footer {
+  margin-top: 18px;
+  color: #dcecff;
+}
+
+.proof-grid article strong {
+  display: block;
+  color: #0a3d74;
+  font-size: 1.5rem;
+}
+
+.proof-grid article p {
+  color: var(--muted);
+}
+
+.evidence-note {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 14px;
+  margin-top: 22px;
+  padding: 18px 20px;
+  border-left: 5px solid var(--gold);
+  border-radius: 0 13px 13px 0;
+  background: rgba(242, 182, 0, 0.12);
+}
+
+.evidence-note strong {
+  color: #0a3d74;
+}
+
+.evidence-note p {
+  margin: 0;
+  color: #465d72;
+}
+
+.effect-section {
+  padding: clamp(30px, 5vw, 58px);
+  border-radius: var(--radius);
+}
+
+.effect-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 26px;
+}
+
+.effect-grid article {
+  min-height: 185px;
+  padding: 22px;
+  border: 1px solid rgba(0, 87, 164, 0.14);
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.effect-grid h3 {
+  color: #0a3d74;
+}
+
+.effect-grid p {
+  color: var(--muted);
+}
+
+.method-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  margin-top: clamp(70px, 8vw, 115px);
+  padding: clamp(28px, 5vw, 50px);
+  border-radius: var(--radius);
+}
+
+.method-cta p:not(.eyebrow) {
+  color: var(--muted);
+}
+
+.method-subnav {
+  display: grid;
+  gap: 3px;
+  margin-top: 18px;
+  padding: 14px;
+  border: 1px solid rgba(255, 210, 0, 0.28);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.method-subnav p {
+  margin: 0 0 5px;
+  color: var(--gold);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.method-subnav a {
+  padding: 5px 7px;
+  border-radius: 7px;
+  color: #f5fbff;
+  text-decoration: none;
+  font-size: 0.86rem;
+}
+
+.method-subnav a:hover,
+.method-subnav a.active {
+  color: #06315f;
+  background: var(--gold);
+}
+
+@media (max-width: 1100px) {
+  .principle-steps,
+  .effect-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .usp-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .proof-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .method-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .method-hero > img {
+    display: none;
+  }
+
+  .method-cta {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 620px) {
+  .principle-steps,
+  .usp-grid,
+  .proof-grid,
+  .effect-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .method-hero,
+  .method-principle,
+  .lesson-flow,
+  .effect-section {
+    padding: 26px 20px;
+  }
+
+  .flow-list li,
+  .evidence-note {
+    grid-template-columns: 1fr;
+  }
+}

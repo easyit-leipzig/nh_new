@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Kontakt">
+<title>Kontakt</title>
+<defs>
+
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+  <feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#001a3a" flood-opacity=".28"/>
+</filter>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="180%">
+  <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#001a3a" flood-opacity=".22"/>
+</filter>
+<linearGradient id="whiteGloss" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity=".85"/>
+  <stop offset=".55" stop-color="#fff" stop-opacity=".15"/>
+  <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#1b8bd5"/><stop offset="1" stop-color="#05366d"/>
+</linearGradient>
+
+</defs>
+
+<circle cx="256" cy="256" r="188" fill="#12b981" filter="url(#shadow)"/>
+<path d="M165 152c18-18 49-17 65 3l28 37c12 16 10 38-5 51l-24 21c22 43 56 77 99 99l21-24c13-15 35-17 51-5l37 28c20 16 21 47 3 65l-18 18c-23 23-58 31-88 20-123-43-220-140-263-263-11-30-3-65 20-88z" fill="#fff"/>
+
+</svg>

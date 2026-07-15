@@ -1,0 +1,42 @@
+:root{
+  --navy:#052b57;
+  --blue:#0b67b2;
+  --gold:#f5ad00;
+  --light:#f4f8fb;
+  --text:#172033;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:white}
+img{max-width:100%;display:block}
+.container{width:min(1180px,92%);margin:auto}
+.hero{display:grid;grid-template-columns:1fr 1.25fr;min-height:590px;align-items:center;background:linear-gradient(90deg,#fff 0%,#fff 42%,#f3f4f4 42%)}
+.hero-copy{padding:60px 5vw}
+.hero h1{font-size:clamp(2.6rem,5vw,5.4rem);line-height:1.05;color:var(--navy);margin:0 0 22px}
+.hero h2{color:var(--blue);font-size:clamp(1.35rem,2.5vw,2.2rem);line-height:1.35}
+.hero-photo{height:100%;object-fit:cover}
+.checks{display:grid;gap:12px;margin:30px 0}
+.checks div:before{content:"✓";display:inline-grid;place-items:center;width:25px;height:25px;border-radius:50%;background:var(--blue);color:#fff;margin-right:12px}
+.cta{display:inline-flex;align-items:center;gap:12px;background:linear-gradient(135deg,#ffc529,#f2a000);color:#fff;padding:18px 24px;border-radius:12px;text-decoration:none;font-weight:700;box-shadow:0 8px 22px #001b3a24}
+.section{padding:58px 0}
+.section h2{text-align:center;color:var(--navy);font-size:2rem}
+.pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{padding:26px;border:1px solid #dfe7ee;border-radius:16px;text-align:center;box-shadow:0 8px 24px #001b3a0e}
+.card img{width:105px;height:105px;margin:0 auto 16px}
+.card h3{color:var(--navy)}
+.split{display:grid;grid-template-columns:1fr 1fr;align-items:stretch}
+.split-copy{padding:50px}
+.split img{height:100%;object-fit:cover}
+.contact{background:#eaf4fc;padding:42px 0}
+.contact-grid{display:grid;grid-template-columns:1.2fr 1fr .7fr;gap:30px;align-items:center}
+.feature-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding:28px 0}
+.feature{display:flex;align-items:center;gap:14px}
+.feature img{width:64px;height:64px}
+@media(max-width:850px){
+  .hero,.split,.contact-grid{grid-template-columns:1fr}
+  .hero{background:#fff}
+  .hero-photo{max-height:430px;width:100%}
+  .pillars,.feature-strip{grid-template-columns:1fr 1fr}
+}
+@media(max-width:540px){
+  .pillars,.feature-strip{grid-template-columns:1fr}
+}

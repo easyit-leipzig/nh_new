@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Kostenlose Probestunde buchen">
+<title>Kostenlose Probestunde buchen</title>
+
+<defs>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#168be0"/>
+    <stop offset="1" stop-color="#063d79"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffd238"/>
+    <stop offset="1" stop-color="#f2a500"/>
+  </linearGradient>
+  <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#eaf1f7"/>
+  </linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="170%" height="190%">
+    <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#001b3a" flood-opacity=".24"/>
+  </filter>
+</defs>
+
+
+<g filter="url(#shadow)">
+  <rect x="18" y="126" width="476" height="260" rx="54" fill="url(#gold)"/>
+  <rect x="47" y="155" width="94" height="94" rx="18" fill="#fff" opacity=".96"/>
+  <rect x="61" y="174" width="66" height="57" rx="8" fill="none" stroke="#f2a500" stroke-width="8"/>
+  <path d="M75 160v27M113 160v27M66 194h56" stroke="#f2a500" stroke-width="8" stroke-linecap="round"/>
+  <text x="168" y="229" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700" fill="#fff">Kostenlose</text>
+  <text x="168" y="270" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700" fill="#fff">Probestunde buchen</text>
+  <path d="m438 231 25 25-25 25" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+</svg>

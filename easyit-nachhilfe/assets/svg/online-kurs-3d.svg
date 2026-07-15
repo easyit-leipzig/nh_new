@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-labelledby="title desc">
+  <title id="title">Online-Kurs</title>
+  <desc id="desc">Dreidimensionales Symbol für einen Online-Kurs mit Laptop, Videofenster, Play-Schaltfläche und WLAN-Symbol.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#e7f0f8"/>
+    </linearGradient>
+
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173f73"/>
+      <stop offset="1" stop-color="#052b57"/>
+    </linearGradient>
+
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f9ae0"/>
+      <stop offset="1" stop-color="#0754a6"/>
+    </linearGradient>
+
+    <linearGradient id="yellow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd83c"/>
+      <stop offset="1" stop-color="#f2a900"/>
+    </linearGradient>
+
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#24d0c9"/>
+      <stop offset="1" stop-color="#00979a"/>
+    </linearGradient>
+
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".55" stop-color="#dce5ed"/>
+      <stop offset="1" stop-color="#aebdca"/>
+    </linearGradient>
+
+    <radialGradient id="play" cx="35%" cy="25%" r="80%">
+      <stop offset="0" stop-color="#35b7ff"/>
+      <stop offset=".7" stop-color="#0a67b5"/>
+      <stop offset="1" stop-color="#063c78"/>
+    </radialGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#001b3a" flood-opacity=".28"/>
+    </filter>
+
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#001b3a" flood-opacity=".22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="620" rx="48" fill="url(#bg)"/>
+
+  <ellipse cx="400" cy="535" rx="250" ry="38" fill="#052b57" opacity=".12"/>
+
+  <g filter="url(#shadow)">
+    <rect x="138" y="86" width="524" height="344" rx="28" fill="#0b315d" stroke="#062442" stroke-width="10"/>
+    <rect x="164" y="112" width="472" height="292" rx="16" fill="url(#screen)"/>
+
+    <rect x="190" y="140" width="270" height="210" rx="18" fill="#f7fbff" stroke="#bcd0e0" stroke-width="5"/>
+    <rect x="210" y="160" width="230" height="120" rx="14" fill="url(#blue)"/>
+
+    <circle cx="325" cy="220" r="42" fill="url(#play)" stroke="#ffffff" stroke-width="6" filter="url(#softShadow)"/>
+    <path d="M311 195 311 245 350 220z" fill="#ffffff"/>
+
+    <g transform="translate(490 145)">
+      <circle cx="58" cy="48" r="34" fill="url(#yellow)" stroke="#d89100" stroke-width="5"/>
+      <circle cx="58" cy="39" r="14" fill="#ffffff"/>
+      <path d="M29 89c5-25 17-38 29-38s24 13 29 38" fill="#ffffff"/>
+
+      <rect x="9" y="112" width="100" height="18" rx="9" fill="#dbe7f0"/>
+      <rect x="9" y="147" width="100" height="18" rx="9" fill="#dbe7f0"/>
+      <rect x="9" y="182" width="72" height="18" rx="9" fill="#dbe7f0"/>
+    </g>
+
+    <rect x="113" y="426" width="574" height="48" rx="22" fill="url(#metal)" stroke="#8fa1b0" stroke-width="5"/>
+    <path d="M195 474h410l58 45H137z" fill="url(#metal)" stroke="#8fa1b0" stroke-width="5"/>
+    <rect x="300" y="487" width="200" height="16" rx="8" fill="#9fb0bd"/>
+  </g>
+
+  <g transform="translate(92 82)" filter="url(#softShadow)">
+    <circle cx="0" cy="0" r="58" fill="url(#teal)" stroke="#057e82" stroke-width="7"/>
+    <path d="M-30 4a43 43 0 0 1 60 0" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-19 17a27 27 0 0 1 38 0" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-7 31a10 10 0 0 1 14 0" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(685 132)" filter="url(#softShadow)">
+    <circle cx="0" cy="0" r="52" fill="#7b2b99" stroke="#4f1768" stroke-width="7"/>
+    <rect x="-24" y="-12" width="48" height="34" rx="6" fill="#fff"/>
+    <path d="M-12-12V-22h24v10" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <text x="400" y="575" text-anchor="middle"
+        font-family="Arial,Helvetica,sans-serif"
+        font-size="46" font-weight="800" letter-spacing="2"
+        fill="#052b57">ONLINE-KURS</text>
+</svg>
