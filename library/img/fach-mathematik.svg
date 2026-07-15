@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 140" role="img" aria-labelledby="title">
+  <title id="title">Mathematik</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D8EE2"/>
+      <stop offset="1" stop-color="#052B57"/>
+    </linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity=".22"/></filter>
+  </defs>
+  <rect x="35" y="8" width="90" height="90" rx="15" fill="url(#g)" filter="url(#s)"/>
+  <path d="M53 61h16l8-28 15 49 10-31h14" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="80" y="126" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#052B57">Mathematik</text>
+</svg>

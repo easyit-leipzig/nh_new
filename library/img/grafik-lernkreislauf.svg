@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Lernkreislauf">
+<title>Lernkreislauf</title>
+<defs>
+
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+  <feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#001a3a" flood-opacity=".28"/>
+</filter>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="180%">
+  <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#001a3a" flood-opacity=".22"/>
+</filter>
+<linearGradient id="whiteGloss" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity=".85"/>
+  <stop offset=".55" stop-color="#fff" stop-opacity=".15"/>
+  <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#ffffff"/>
+  <stop offset="1" stop-color="#eaf2f9"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#0B67B2"/>
+  <stop offset="1" stop-color="#053a73"/>
+</linearGradient>
+
+</defs>
+
+<g filter="url(#shadow)">
+  <rect x="42" y="42" width="428" height="428" rx="54" fill="url(#panel)" stroke="#d5e0ea" stroke-width="4"/>
+  <path d="M76 88c92-37 238-48 352 12" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" opacity=".75"/>
+
+<g transform="translate(62 62)">
+  <circle cx="194" cy="194" r="138" fill="#f8fbfe" stroke="#d6e2ec" stroke-width="5"/>
+  <path d="M194 41a153 153 0 0 1 139 90" fill="none" stroke="#0a61ad" stroke-width="10"/>
+  <path d="m335 119 7 27-28-2" fill="#0a61ad"/>
+  <path d="M347 194a153 153 0 0 1-90 139" fill="none" stroke="#0a61ad" stroke-width="10"/>
+  <path d="m269 335-27 7 2-28" fill="#0a61ad"/>
+  <path d="M194 347a153 153 0 0 1-139-90" fill="none" stroke="#0a61ad" stroke-width="10"/>
+  <path d="m53 269-7-27 28 2" fill="#0a61ad"/>
+  <path d="M41 194a153 153 0 0 1 90-139" fill="none" stroke="#0a61ad" stroke-width="10"/>
+  <path d="m119 53 27-7-2 28" fill="#0a61ad"/>
+  <g filter="url(#soft)">
+    <circle cx="194" cy="47" r="42" fill="#1688dd"/><path d="M178 47h32M194 31v32" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="341" cy="194" r="42" fill="#14b7b1"/><path d="m323 194 12 12 25-31" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="194" cy="341" r="42" fill="#7b2b99"/><path d="m176 341 13 13 25-31" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="47" cy="194" r="42" fill="#ffc400"/><path d="M47 169v24M35 206h24" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <text x="194" y="183" text-anchor="middle" font-family="Arial" font-weight="700" font-size="25" fill="#052b57">DEIN WEG</text>
+  <text x="194" y="215" text-anchor="middle" font-family="Arial" font-weight="700" font-size="25" fill="#052b57">ZUM ERFOLG</text>
+</g>
+
+</g>
+
+</svg>
