@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="Leipzig Silhouette">
+<title>Leipzig Silhouette</title>
+<defs>
+
+</defs>
+
+<rect width="1200" height="360" fill="#fff"/>
+<defs></defs>
+<g transform="translate(0 45)" fill="#07529a">
+  <path d="M0 250V205h35v-52h17v-36h13v36h18v52h25v-68h30v-35h16V72h14v30h16v35h30v68h27v-45h34v-23h17v-46h13V42h11V0h12v42h11v49h13v46h17v23h34v45h31v-73h26v-31h15V76h12v25h15v31h26v73h34v-50h27v-26h17v-42h11V58h10v29h11v42h17v26h27v50h35v-61h27v-38h14V75h11v31h14v38h27v61h36v-49h31v-24h16v-43h12V53h11v36h12v43h16v24h31v49h28v-76h22V99h11V61h10V24h11v37h10v38h11v30h22v76h29v-53h31v-28h16v-44h11V47h11v33h11v44h16v28h31v53h39v-63h28v-35h15V72h11v35h15v35h28v63h40v45z"/>
+  <rect y="246" width="1200" height="14"/>
+</g>
+<path d="M0 296c173-38 278 42 447 0 182-45 330 40 509-5 99-25 171-23 244 5v64H0z" fill="#16b7b1" opacity=".22"/>
+
+</svg>

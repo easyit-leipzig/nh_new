@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 430" role="img" aria-labelledby="title desc">
+  <title id="title">easyIT Nachhilfe</title>
+  <desc id="desc">Logo mit Kopf, Gehirn, Fachsymbolen und Schriftzug easyIT Nachhilfe</desc>
+  <defs>
+    <linearGradient id="it" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D8EE2"/>
+      <stop offset="1" stop-color="#0A5EAF"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(24 20)">
+    <path d="M190 210c-42 7-76-7-94-34-14-21-15-47-4-72 12-27 34-44 61-49 17-3 36 0 51 9 25 15 37 43 31 70-5 25-21 44-45 56z"
+          fill="none" stroke="#052B57" stroke-width="11" stroke-linejoin="round"/>
+    <path d="M95 112c-20 11-31 26-32 47l16 9-11 18 21 5-4 20 24 2" fill="none" stroke="#052B57" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="none" stroke="#052B57" stroke-width="8" stroke-linecap="round">
+      <path d="M132 89c-19 3-28 18-20 31-12 7-11 22 1 28-4 13 10 25 23 19"/>
+      <path d="M158 82c-12 2-18 10-16 20-9 2-13 12-8 20"/>
+      <path d="M181 90c13 5 18 16 13 27 11 8 8 23-4 29"/>
+      <path d="M151 104v49M125 126h55"/>
+    </g>
+    <g transform="translate(210 70)">
+      <rect width="88" height="88" rx="14" fill="#1177C9"/>
+      <path d="M18 54h18l8-27 14 47 10-29h13" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(312 70)">
+      <rect width="88" height="88" rx="14" fill="#65A63E"/>
+      <g fill="none" stroke="#fff" stroke-width="5">
+        <ellipse cx="44" cy="44" rx="32" ry="12"/>
+        <ellipse cx="44" cy="44" rx="32" ry="12" transform="rotate(60 44 44)"/>
+        <ellipse cx="44" cy="44" rx="32" ry="12" transform="rotate(120 44 44)"/>
+      </g>
+      <circle cx="44" cy="44" r="5" fill="#fff"/>
+    </g>
+    <g transform="translate(414 70)">
+      <rect width="88" height="88" rx="14" fill="#F39200"/>
+      <path d="M34 18h20M38 18v21L24 63c-5 9 2 17 11 17h18c9 0 16-8 11-17L50 39V18" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="40" cy="63" r="3" fill="#fff"/><circle cx="51" cy="68" r="3" fill="#fff"/>
+    </g>
+    <g transform="translate(516 70)">
+      <rect width="88" height="88" rx="14" fill="#244E89"/>
+      <path d="M34 24 15 44l19 20M54 24l19 20-19 20M50 17 38 71" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="90" y="312" font-family="Arial,Helvetica,sans-serif" font-size="170" font-weight="700" letter-spacing="-10" fill="#052B57">easy</text>
+    <text x="405" y="312" font-family="Arial,Helvetica,sans-serif" font-size="170" font-style="italic" font-weight="700" letter-spacing="-12" fill="url(#it)">IT</text>
+    <line x1="80" y1="356" x2="205" y2="356" stroke="#6B6F76" stroke-width="5"/>
+    <line x1="500" y1="356" x2="625" y2="356" stroke="#6B6F76" stroke-width="5"/>
+    <text x="350" y="376" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="700" letter-spacing="9" fill="#6B6F76">NACHHILFE</text>
+  </g>
+</svg>

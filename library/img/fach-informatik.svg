@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 145" role="img" aria-labelledby="title">
+  <title id="title">Informatik</title>
+  <g fill="none" stroke="#052B57" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M66 20 27 58l39 38"/>
+    <path d="M114 20 153 58l-39 38"/>
+    <path d="M103 12 77 105"/>
+  </g>
+  <text x="90" y="137" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#052B57">Informatik</text>
+</svg>
