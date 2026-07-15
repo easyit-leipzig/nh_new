@@ -1,0 +1,3 @@
+<?php $pageTitle='Impressum | easyIT-Nachhilfe Leipzig'; require __DIR__.'/includes/header.php'; ?>
+<main id="main-content" class="legal-page"><h1>Impressum</h1><div class="legal-card"><p><strong>Angaben gemäß § 5 DDG</strong></p><p>easyIT-Nachhilfe Leipzig<br>[Vor- und Nachname ergänzen]<br>[Straße und Hausnummer ergänzen]<br>[PLZ Leipzig]</p><p><strong>Kontakt</strong><br>E-Mail: info@easyit-leipzig.de<br>Telefon: [Telefonnummer ergänzen]</p><p><strong>Hinweis:</strong> Bitte ersetzen Sie vor der Veröffentlichung alle Angaben in eckigen Klammern durch Ihre tatsächlichen Daten.</p></div></main>
+<?php require __DIR__.'/includes/footer.php'; ?>
