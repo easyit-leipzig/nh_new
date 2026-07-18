@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Kalender">
+<title>Kalender</title>
+<defs>
+
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+  <feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#001a3a" flood-opacity=".28"/>
+</filter>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="180%">
+  <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#001a3a" flood-opacity=".22"/>
+</filter>
+<linearGradient id="whiteGloss" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity=".85"/>
+  <stop offset=".55" stop-color="#fff" stop-opacity=".15"/>
+  <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#1b8bd5"/><stop offset="1" stop-color="#05366d"/>
+</linearGradient>
+
+</defs>
+
+<rect x="73" y="92" width="366" height="342" rx="48" fill="#fff" stroke="#0b67b2" stroke-width="24" filter="url(#shadow)"/>
+<rect x="73" y="92" width="366" height="95" rx="30" fill="url(#accent)"/>
+<path d="M155 54v86M357 54v86" stroke="#052b57" stroke-width="28" stroke-linecap="round"/>
+<g fill="#0b67b2"><rect x="130" y="232" width="54" height="54" rx="8"/><rect x="229" y="232" width="54" height="54" rx="8"/><rect x="328" y="232" width="54" height="54" rx="8"/><rect x="130" y="327" width="54" height="54" rx="8"/><rect x="229" y="327" width="54" height="54" rx="8"/></g>
+
+</svg>

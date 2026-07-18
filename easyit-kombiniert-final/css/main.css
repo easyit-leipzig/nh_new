@@ -1,0 +1,54 @@
+/* ============================================================
+   easyIT-Nachhilfe – globale und übergreifende Styles
+   Variablen, Reset, Typografie, Barrierefreiheit, Container, Buttons
+   ============================================================ */
+
+:root{--bg:#0057A4;
+  --bg2:#0B66B2;
+  --panel:#ffffff;
+  --panel2:#f7fbff;
+  --line:rgba(0,61,122,.18);
+  --text:#17324d;
+  --muted:#5f7184;
+  --blue:#0057A4;
+  --blue2:#1976D2;
+  --gold:#F2B600;
+  --red:#c8102e;
+  --cyan:#22a7e8;
+  --header-h:92px;
+  --sidebar-w:286px;
+  --radius:24px;
+  --shadow:0 18px 45px rgba(0,45,90,.16);}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 22px)}
+body{margin:0;color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.6;background:
+radial-gradient(circle at 86% 8%,rgba(255,255,255,.20),transparent 28rem),
+radial-gradient(circle at 12% 72%,rgba(242,182,0,.15),transparent 26rem),
+linear-gradient(150deg,#0057A4 0%,#0B66B2 58%,#0057A4 100%);}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.10;background-image:linear-gradient(rgba(255,255,255,.22) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.22) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(to bottom,#000,transparent 92%)}
+a{color:inherit}
+img{max-width:100%;display:block}
+button,input,select,textarea{font:inherit}
+.skip-link{position:fixed;left:1rem;top:-5rem;z-index:100;padding:.8rem 1rem;background:var(--gold);color:#03101e;border-radius:8px}
+@media (prefers-reduced-motion:reduce){
+*{scroll-behavior:auto!important;transition:none!important}
+}
+:root{--blue:#063f8c;--blue-dark:#031d45;--blue-soft:#0c5bbb;--yellow:#ffd51f;--paper:#f6f9ff;--ink:#13233b;--muted:#5d6b80;--line:#d9e3f3;--white:#fff;--radius:20px;--shadow:0 18px 48px rgba(3,29,69,.14);--max:1220px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#f8fbff,#eef4ff);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+img{max-width:100%;display:block}
+a{color:inherit}
+button,input,select,textarea{font:inherit}
+:focus-visible{outline:4px solid rgba(255,213,31,.75);outline-offset:3px}
+.shell{width:min(calc(100% - 32px),var(--max));margin-inline:auto}
+.button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:.68rem 1.1rem;border:1px solid transparent;border-radius:999px;text-decoration:none;font-weight:750;cursor:pointer;transition:.2s transform,.2s box-shadow,.2s background}
+.button:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.button-yellow{background:var(--yellow);color:var(--blue-dark)}
+.button-ghost{background:#fff;color:var(--blue)}
+.button-outline{border-color:#fff;color:#fff;background:transparent}
+.button-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+@media (max-width:760px){
+.button{width:100%}
+.button-row .button{width:auto}
+}

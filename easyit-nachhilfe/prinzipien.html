@@ -2,34 +2,79 @@
 <html lang="de">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Individuelle Nachhilfe in Mathematik, Physik, Chemie und Informatik in Leipzig – verständlich, persönlich und nachhaltig.">
-  <meta name="theme-color" content="#0057b8">
-  <title>Unsere Prinzipien | easyIT-Nachhilfe Leipzig</title>
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <script src="assets/js/main.js" defer></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Gesamtübersicht der easyIT-Fächer Mathematik, Physik, Chemie und Informatik.">
+  <title>Fächer | easyIT Nachhilfe Leipzig</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/faecher.css">
+  <script src="js/faecher.js" defer></script>
 </head>
-<body>
-<a class="skip-link" href="#main-content">Zum Inhalt springen</a>
+<body class="subjects-page" data-active-nav="faecher">
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
 <header class="site-header">
-  <div class="header-inner">
-    <a class="brand" href="index.html" aria-label="easyIT-Nachhilfe Startseite">
-      <span class="brand-mark" aria-hidden="true">eIT</span>
-      <span><strong>easyIT</strong><small>Nachhilfe Leipzig</small></span>
-    </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
-      <span></span><span></span><span></span><span class="sr-only">Menü öffnen</span>
-    </button>
-    <nav id="main-nav" class="main-nav" aria-label="Hauptnavigation">
-      <a href="index.html">Start</a>
-      <a href="prinzipien.html" aria-current="page">Prinzipien</a>
-      <a href="index.html#faecher">Fächer</a>
-      <a href="index.html#ablauf">Ablauf</a>
-      <a class="nav-cta" href="index.html#kontakt">Kontakt</a>
-    </nav>
+  <button class="menu-toggle" type="button" aria-label="Menü öffnen" aria-controls="sidebar" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <a class="brand" href="index.html" aria-label="easyIT Startseite">
+    <img src="assets/svg/logo-easyit.svg" alt="easyIT Nachhilfe">
+  </a>
+  <div class="header-contact">
+    <a href="tel:+4917663122338">0176 – 631 22 338</a>
+    <a class="header-cta" href="index.html#kontakt" data-nav-section="kontakt">Kostenloses Erstgespräch</a>
   </div>
 </header>
+
+<div class="page-shell">
+
+  <aside class="sidebar" id="sidebar">
+    <button class="sidebar-scroll-button sidebar-scroll-button--up" type="button"
+            aria-label="Im Menü nach oben blättern" title="Menü nach oben" hidden>
+      <span aria-hidden="true">▲</span>
+    </button>
+
+    <div class="sidebar-scroll-window" tabindex="0" aria-label="Menübereich">
+      <div class="sidebar-scroll-content">
+        <nav aria-label="Hauptnavigation">
+          <a href="index.html"><span>⌂</span>Startseite</a>
+          <a href="index.html#profil" data-nav-section="profil"><span>●</span>Über mich</a>
+          <a href="faecher.html" data-nav-section="faecher" class="active" aria-current="page"><span>◆</span>Fächer</a>
+          <a href="index.html#unterricht" data-nav-section="unterricht"><span>▣</span>Unterricht</a>
+          <a href="methodik.html" data-nav-section="methodik"><span>◎</span>Methodik</a>
+          <a href="index.html#ablauf" data-nav-section="ablauf"><span>€</span>Ablauf &amp; Preise</a>
+          <a href="index.html#erfolg" data-nav-section="erfolg"><span>★</span>Erfolg &amp; Bewertungen</a>
+          <a href="wissenswertes.html" data-nav-section="wissen"><span>?</span>Wissenswertes</a>
+      <a href="faq.html" data-nav-section="faq"><span>!</span>FAQ</a>
+          <a href="index.html#kontakt" data-nav-section="kontakt"><span>✉</span>Kontakt</a>
+          <a href="index.html#anfahrt" data-nav-section="anfahrt"><span>⌖</span>Anfahrt</a>
+        </nav>
+
+        <div class="subject-subnav" aria-label="Fächer auswählen">
+          <p>Fächer:</p>
+          <a href="faecher.html" data-nav-section="faecher">Gesamtübersicht</a>
+          <a href="mathematik.html">Mathematik</a>
+          <a href="physik.html">Physik</a>
+          <a href="chemie.html">Chemie</a>
+          <a href="informatik.html">Informatik</a>
+        </div>
+
+        <a class="sidebar-cta" href="index.html#kontakt" data-nav-section="kontakt">
+          <strong>Kostenloses Erstgespräch</strong>
+          <span>Jetzt vereinbaren →</span>
+        </a>
+
+        <div class="sidebar-meta">
+          Leipzig &amp; Umgebung<br>auch online möglich
+        </div>
+      </div>
+    </div>
+
+    <button class="sidebar-scroll-button sidebar-scroll-button--down" type="button"
+            aria-label="Im Menü nach unten blättern" title="Menü nach unten">
+      <span aria-hidden="true">▼</span>
+    </button>
+  </aside>
+
 <main id="main-content">
   <section class="subhero">
     <div class="reveal"><p class="eyebrow">Unsere Haltung</p><h1>Zwölf Prinzipien für nachhaltige Nachhilfe.</h1><p>Die Prinzipien von easyIT beschreiben nicht nur, was im Unterricht geschieht, sondern warum wir so arbeiten. Sie verbinden fachliche Klarheit mit Vertrauen, Selbstständigkeit und realistischen Lernschritten.</p></div>
@@ -91,26 +136,20 @@
     <div><p class="eyebrow">Prinzipien werden erst im Handeln sichtbar</p><h2>Der passende Lernweg beginnt mit einem Gespräch.</h2></div>
     <a class="button button-primary" href="index.html#kontakt">Kontakt aufnehmen</a>
   </section>
-</main>
+    
 <footer class="site-footer">
-  <div class="footer-grid">
-    <div>
-      <a class="brand footer-brand" href="index.html"><span class="brand-mark">eIT</span><span><strong>easyIT</strong><small>Nachhilfe Leipzig</small></span></a>
-      <p>Individuelle Unterstützung in Mathematik, Physik, Chemie und Informatik.</p>
-    </div>
-    <div>
-      <h2>Navigation</h2>
-      <a href="index.html">Startseite</a>
-      <a href="prinzipien.html">Unsere Prinzipien</a>
-      <a href="index.html#kontakt">Kontakt</a>
-    </div>
-    <div>
-      <h2>Rechtliches</h2>
-      <a href="impressum.html">Impressum</a>
-      <a href="datenschutz.html">Datenschutz</a>
-    </div>
+  <div>
+    <strong>easyIT Nachhilfe Leipzig</strong><br>
+    <span>Wissen verstehen. Sicherheit gewinnen. Ziele erreichen.</span>
   </div>
-  <div class="footer-bottom">© <span data-current-year></span> easyIT-Nachhilfe Leipzig</div>
+  <nav>
+    <a href="#">Impressum</a>
+    <a href="#">Datenschutz</a>
+    <a href="index.html#kontakt" data-nav-section="kontakt">Kontakt</a>
+  </nav>
 </footer>
+
+</main>
+</div>
 </body>
 </html>

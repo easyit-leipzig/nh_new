@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 550" role="img" aria-labelledby="title">
+  <title id="title">Wissenschaftliche Fächer mit Formeln, Molekül und Laptop</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1EEE9"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#222"/>
+      <stop offset="1" stop-color="#4E4E4E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="550" fill="url(#bg)"/>
+  <g fill="#052B57" font-family="Georgia,serif">
+    <text x="15" y="84" font-size="45">f(x) = ax² + bx + c</text>
+    <text x="400" y="58" font-size="38">lim</text>
+    <text x="447" y="90" font-size="24">x→0</text>
+    <text x="505" y="55" font-size="34">sin x</text>
+    <line x1="500" y1="66" x2="592" y2="66" stroke="#052B57" stroke-width="3"/>
+    <text x="535" y="103" font-size="34">x</text>
+    <text x="610" y="66" font-size="34">= 1</text>
+  </g>
+  <g stroke="#052B57" fill="none" stroke-width="4">
+    <line x1="40" y1="268" x2="175" y2="268"/><line x1="40" y1="268" x2="40" y2="155"/>
+    <path d="M40 268 126 176"/><path d="m120 181 9-11-12 5"/>
+    <path d="M40 268 164 218"/><path d="m156 217 14-3-11 9"/>
+    <path d="M40 268 40 165"/><path d="m35 174 5-14 5 14"/>
+    <path d="M80 268 A40 40 0 0 1 68 240"/>
+  </g>
+  <g fill="#052B57" font-family="Arial,Helvetica,sans-serif" font-size="25">
+    <text x="15" y="292">0</text><text x="130" y="173">F₂</text><text x="165" y="220">F₂</text><text x="50" y="165">F₁</text><text x="78" y="250">α</text>
+    <text x="48" y="355" font-family="Georgia,serif" font-size="38">m a = ∑ F</text>
+  </g>
+  <g transform="translate(300 175)" stroke="#052B57" stroke-width="4" fill="none">
+    <polygon points="95,0 165,42 165,122 95,164 25,122 25,42"/>
+    <line x1="95" y1="0" x2="95" y2="-40"/>
+    <line x1="165" y1="122" x2="215" y2="150"/>
+    <circle cx="25" cy="42" r="7" fill="#fff"/><circle cx="25" cy="122" r="7" fill="#fff"/>
+    <circle cx="165" cy="42" r="7" fill="#fff"/><circle cx="165" cy="122" r="7" fill="#fff"/>
+  </g>
+  <g fill="#052B57" font-family="Arial,Helvetica,sans-serif" font-size="25">
+    <text x="382" y="125">OH</text><text x="510" y="348">CH₃</text><text x="350" y="229">O</text><text x="490" y="229">O</text>
+    <text x="350" y="310">O</text><text x="490" y="310">O</text>
+    <text x="360" y="430" font-family="Georgia,serif" font-size="38">H₂SO₄</text>
+  </g>
+  <g fill="#052B57" font-family="Courier New,monospace" font-size="23">
+    <text x="565" y="142"># include &lt;stdio.h&gt;</text>
+    <text x="590" y="195">int main() {</text>
+    <text x="620" y="245">printf("Hello World!");</text>
+    <text x="620" y="295">return 0;</text>
+    <text x="590" y="345">}</text>
+  </g>
+  <g transform="translate(550 320)">
+    <polygon points="210,0 450,0 420,185 165,185" fill="url(#screen)" stroke="#222" stroke-width="6"/>
+    <polygon points="165,185 420,185 495,225 95,225" fill="#D7D7D7" stroke="#999" stroke-width="5"/>
+    <polygon points="220,195 390,195 430,213 180,213" fill="#BEBEBE"/>
+  </g>
+  <g transform="translate(50 455)">
+    <polygon points="0,45 320,15 520,28 220,64" fill="#F7F4EA" stroke="#D7D0C4" stroke-width="3"/>
+    <path d="M160 38c50-20 90-20 125-5-40 4-74 12-112 26z" fill="#103E69"/>
+    <rect x="332" y="21" width="115" height="10" rx="5" transform="rotate(5 332 21)" fill="#222"/>
+  </g>
+</svg>

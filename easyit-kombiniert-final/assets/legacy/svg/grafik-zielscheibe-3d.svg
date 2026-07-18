@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Zielscheibe">
+<title>Zielscheibe</title>
+<defs>
+
+<filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+  <feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#001a3a" flood-opacity=".28"/>
+</filter>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="180%">
+  <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#001a3a" flood-opacity=".22"/>
+</filter>
+<linearGradient id="whiteGloss" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity=".85"/>
+  <stop offset=".55" stop-color="#fff" stop-opacity=".15"/>
+  <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#ffffff"/>
+  <stop offset="1" stop-color="#eaf2f9"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#0B67B2"/>
+  <stop offset="1" stop-color="#053a73"/>
+</linearGradient>
+
+</defs>
+
+<g filter="url(#shadow)">
+  <rect x="42" y="42" width="428" height="428" rx="54" fill="url(#panel)" stroke="#d5e0ea" stroke-width="4"/>
+  <path d="M76 88c92-37 238-48 352 12" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" opacity=".75"/>
+
+<g transform="translate(66 72)">
+  <ellipse cx="176" cy="288" rx="150" ry="25" fill="#052b57" opacity=".18"/>
+  <g transform="rotate(-8 176 180)">
+    <ellipse cx="176" cy="178" rx="136" ry="164" fill="#0d4f98" stroke="#07366f" stroke-width="8"/>
+    <ellipse cx="176" cy="178" rx="109" ry="132" fill="#fff"/>
+    <ellipse cx="176" cy="178" rx="81" ry="100" fill="#2d72ba"/>
+    <ellipse cx="176" cy="178" rx="52" ry="66" fill="#fff"/>
+    <ellipse cx="176" cy="178" rx="24" ry="31" fill="#1a65ad"/>
+  </g>
+  <g stroke-linecap="round" stroke-width="14">
+    <path d="M182 175 323 62" stroke="#0b5db1"/>
+    <path d="m323 62-23 0 13-17" stroke="#0b5db1"/>
+    <path d="M182 175 345 130" stroke="#f1aa00"/>
+    <path d="m345 130-21-8 9-18" stroke="#f1aa00"/>
+    <path d="M182 175 330 206" stroke="#00a5a8"/>
+    <path d="m330 206-16-15 14-13" stroke="#00a5a8"/>
+  </g>
+</g>
+
+</g>
+
+</svg>
